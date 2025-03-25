@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmic Chomper</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>Cosmic Chomper</h1>
+            <div class="score-board">
+                <span class="score-label">Score:</span>
+                <span id="score">0</span>
+                <span class="lives-label">Lives:</span>
+                <span id="lives">3</span>
+            </div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="controls">
+            <div class="control-info">Use arrow keys or WASD to navigate</div>
+            <button id="startButton">Start Game</button>
+            <button id="pauseButton">Pause</button>
+        </div>
+    </div>
+    <script src="js/game.js"></script>
+</body>
+</html>
